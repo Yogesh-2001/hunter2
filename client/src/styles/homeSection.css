@@ -1,0 +1,34 @@
+.homeSection {
+    background-color: red;
+    background: rgba(0, 0, 0, 0.5) url("/public/images/homeImg.jpg") top left repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 91vh;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 12rem;
+}
+
+.home_heading {
+    width: 80%;
+    color: white;
+    margin: 1rem 0 1rem 0 !important;
+
+}
+
+
+.home_quotes {
+    width: 70%;
+    color: white;
+    margin: 1rem 0 1rem 0 !important;
+}
+
+
+.homeBtn {
+    margin: 1rem 0 1rem 0 !important;
+    background-color: red;
+}

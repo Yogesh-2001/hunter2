@@ -1,0 +1,55 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 40px;
+}
+
+.swiper-slide .MuiPaper-rounded {
+
+    background-color: #fff !important;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif !important;
+    width: 350px;
+    height: 300px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.all-drives .slider-item .index {
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,13 @@
+footer {
+    background-color: #0f2e47;
+    height: 400px;
+    color: white;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .container div {
+    border: 1px solid white;
+}

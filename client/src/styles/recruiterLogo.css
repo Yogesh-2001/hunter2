@@ -1,0 +1,39 @@
+.recruiterLogos {
+    margin: 4rem 0rem 10rem 0rem;
+}
+
+.recruiter-Cards-heading {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    text-align: center;
+    margin: 1rem !important;
+}
+
+.recruiter-Cards {
+    width: 90%;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.recruiter-Card {
+    width: 12rem !important;
+    height: 7rem;
+    margin: 0.4rem;
+    padding: 2rem;
+    transition: all 0.8s ease-in-out;
+}
+
+.recruiter-Card:hover {
+    transform: scale(1.5, 1.5);
+
+}
+
+
+/* shadow removed */
+.recruiterLogos .css-bhp9pd-MuiPaper-root-MuiCard-root {
+    box-shadow: none !important;
+}

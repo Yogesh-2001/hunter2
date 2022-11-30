@@ -1,0 +1,91 @@
+.users-list-table {
+    margin: 1rem;
+}
+
+.users-list-table .users_material_table {
+    background-color: red !important;
+    background-color: #000F17;
+}
+
+
+.users-list-table .MuiPaper-rounded {
+    background-color: rebeccapurple !important;
+    background-color: #000F17 !important;
+    border: 1px solid grey;
+}
+
+.users-list-table .MuiTypography-h6 {
+    color: white !important;
+    font-size: 2rem !important;
+}
+
+.users-list-table .MuiInput-root {
+    color: white !important;
+}
+
+.users-list-table .MuiSvgIcon-root {
+    color: white !important;
+}
+
+.users-list-table .MTableHeader-header-14 {
+    border: 1px solid grey;
+    color: white;
+    background-color: #031A29 !important;
+    text-align: center !important;
+}
+
+.users-list-table .MuiTableCell-alignLeft {
+    border: 1px solid grey;
+}
+
+.users-list-table .MuiTableBody-root {
+    background-color: #131517 !important;
+    border: 1px solid grey;
+}
+
+.users-list-table .MuiTableRow-root {
+    background-color: #131517 !important;
+    background-color: #272B38 !important;
+    color: white !important;
+    border: 1px solid grey;
+}
+
+.users-list-table .MuiTableBody-root {
+    color: white !important;
+    text-align: center !important;
+}
+
+.users-list-table .MuiTableSortLabel-root {
+    color: red !important;
+    color: #99A2AE !important;
+}
+
+.users-list-table .MuiTablePagination-select {
+    color: white !important;
+}
+
+.users-list-table .MuiTypography-caption {
+    color: white !important;
+}
+
+.users-list-table .MuiTableRow-root:not(:first-child):hover {
+    background-color: grey !important;
+    color: whitesmoke !important;
+    font-weight: 600 !important;
+}
+
+.users-list-table .MuiMenu-paper {
+    color: white;
+}
+
+.users-list-table .MuiTableCell-body {
+    text-align: center !important;
+}
+
+.users-list-table .MuiSvgIcon-root {
+    width: auto !important;
+}
+
+.users-list-table .MuiPopover-paper {
+    color: white !important;
+}
