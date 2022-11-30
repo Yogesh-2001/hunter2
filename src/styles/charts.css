@@ -1,0 +1,7 @@
+.bar-graph,
+.area-chart {
+    width: 70% !important;
+    height: 600px !important;
+    margin: 20px auto !important;
+    z-index: -1 !important;
+}

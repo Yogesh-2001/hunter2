@@ -1,0 +1,74 @@
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    /* width: 200px; */
+    height: 100vh;
+    background-color: #000048;
+    color: white;
+    transition: width .2s ease-in;
+    position: fixed;
+    left: 0px;
+    z-index: 200;
+    
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.Admin-logo {
+    font-size: 25px;
+    line-height: 0;
+}
+
+.bars {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    padding: 5px 10px;
+    border-left: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.735, 0.045);
+    text-decoration: none;
+}
+
+.sidebar-link:hover {
+    border-left: 4px solid white;
+    transition: 0.2s cubic-bezier(0.6, -0.735, 0.045);
+    background: rgb(45, 51, 89);
+    color: white;
+    cursor: pointer;
+}
+
+.active {
+    border-left: 4px solid white;
+    background: rgb(45, 51, 89);
+    color: white;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+
+}
+
+.link_text {
+    white-space: nowrap;
+    font-size: 17px;
+}
+
+.sidebar-bar {
+    cursor: pointer;
+}
