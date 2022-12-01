@@ -11,6 +11,7 @@ import UpComingSlider from "./components/UpComingSlider";
 import PersonalDetails from "./pages/PersonalDetails";
 import { UserContext } from "./context/LoginContext";
 import Forum from "./comment-section/Forum";
+import Profile from "./pages/Profile";
 
 const App = () => {
   const { loggedInUser } = useContext(UserContext);
@@ -40,6 +41,7 @@ const App = () => {
             path="/create-profile"
             element={loggedInUser ? <PersonalDetails /> : <Login />}
           />
+          <Route path="/myprofile" element={<Profile />} />
         </Routes>
       </Router>
     </>
